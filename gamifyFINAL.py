@@ -86,7 +86,8 @@ def perform_activity(activity, duration):
 
     # Update the last finished timing and activity
     cur_time = cur_time + duration
-    last_finished = cur_time
+    if not (activity == "resting"):
+        last_finished = cur_time    
     last_activity = activity
     last_activity_duration = duration
 
