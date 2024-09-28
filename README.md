@@ -8,7 +8,6 @@
       - Less than 180 minutes: Gain 3 health points per minute.
       - More than 180 minutes: Gain 1 health point per minute for every minute after 180.
       - Clock Reset: The running health point calculation resets if the user carries textbooks or rests for even one minute.
-
     - Hedons:
       - If Tired:
         - If No Star: Lose 2 hedons/min.
@@ -34,7 +33,6 @@
 
   3. Carrying Textbooks:
     - Health: Gain 2 health points per minute.
-    
     - Hedons:
       - If Tired:
         - If No Star: Lose 2 hedons/min.
